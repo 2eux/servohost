@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial Black', 'Bodoni MT Black';
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+}
+.atas {
+  font-size: 140px;
+  font-style: oblique;
+  color: #3300ff;
+  display: none;
+}
+.bawah {
+  font-size: 100px;
+  font-style: normal;
+  color: #33ccff;
+  display: none;
+}
+p {
+  height: 80%;
+  line-height: -142px;
+}
+p.showavatar {
+  background-image: url('./images/servohost.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.unshowtext {
+  display: none;
+}
