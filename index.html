@@ -1,29 +1,51 @@
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Metadata -->
     <title>ServoHost</title>
-    <meta
-      name="description"
-      content="Servohost.net Servohosting Server Hosting Web Designer Web Application."
+    <meta 
+        name="description" 
+        content="Servohost.net Servohosting Server Hosting Web Designer Web Application."
     />
     <meta name="keywords" content="Servo, server, hosting, website, webhost" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon-servohost.png"
+    
+    <!-- Favicon and Styles -->
+    <link 
+        rel="icon" 
+        type="image/png" 
+        sizes="32x32" 
+        href="images/favicon-servohost.png"
     />
     <link rel="stylesheet" href="style.css" />
-  </head>
+    
+</head>
+<body>
+    <!-- Main Content -->
+    <main>
+    <p class="showavatar">&nbsp;</p>
+    </main>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ERFRQDZQ2Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Analytics Script -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERFRQDZQ2Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-ERFRQDZQ2Q');
-</script>
-  <p class="showavatar">&nbsp;</p>
+        gtag('config', 'G-ERFRQDZQ2Q');
+    </script>
+    
+    <!-- Cloudflare Beacon Script -->
+    <script 
+        defer 
+        src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" 
+        xintegrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" 
+        data-cf-beacon='{"version":"2024.11.0","token":"c45ba56ba3aa47f59af2a58cde1ca8e9","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' 
+        crossorigin="anonymous"
+    ></script>
+</body>
 </html>
+
